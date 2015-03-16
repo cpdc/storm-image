@@ -12,11 +12,11 @@ ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/
 ENV CLASS_PATH /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/dt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/tools.jar
 RUN echo -e "\n\
  storm.zookeeper.servers: \n\
-     - \"ip1\"\n\
-     - \"ip2\"\n\
-     - \"ip3\"\n\
+     - \"223.202.46.151\"\n\
+     - \"223.202.46.152\"\n\
+     - \"223.202.46.153\"\n\
 \n\
- nimbus.host: \"ip\"\n\
+ nimbus.host: \"223.202.46.132\"\n\
 \n\
  storm.local.dir: \"/local_storm_home\"\n\
 \n\
