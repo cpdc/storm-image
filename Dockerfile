@@ -13,11 +13,9 @@ ENV CLASS_PATH /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre
 RUN echo -e "\n\
  storm.zookeeper.root: "/xiaotian_storm"\n\
  storm.zookeeper.servers: \n\
-     - \"223.202.46.151\"\n\
-     - \"223.202.46.152\"\n\
-     - \"223.202.46.153\"\n\
+     - \"10.20.72.132\"\n\
 \n\
- nimbus.host: \"223.202.46.133\"\n\
+ nimbus.host: \"10.20.72.153\"\n\
 \n\
  storm.local.dir: \"/local_storm_home\"\n\
 \n\
