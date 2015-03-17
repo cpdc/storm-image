@@ -8,8 +8,8 @@ RUN wget http://mirror.bit.edu.cn/apache/incubator/storm/apache-storm-0.9.2-incu
 RUN tar -zxvf apache-storm-0.9.2-incubating.tar.gz
 RUN rm /apache-storm-0.9.2-incubating/conf/storm.yaml
 ENV PATH $PATH:/apache-storm-0.9.2-incubating/bin
-ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/
-ENV CLASS_PATH /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/dt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65-2.5.1.2.el7_0.x86_64/jre/lib/tools.jar
+ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.71-2.5.3.1.el7_0.x86_64/jre/
+ENV CLASS_PATH /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.71-2.5.3.1.el7_0.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.71-2.5.3.1.el7_0.x86_64/jre/lib/dt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.71-2.5.3.1.el7_0.x86_64/jre/lib/tools.jar
 RUN echo -e "\n\
  storm.zookeeper.root: "/xiaotian_storm"\n\
  storm.zookeeper.servers: \n\
